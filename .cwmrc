@@ -1,0 +1,21 @@
+sticky yes
+
+command firefox		firefox
+command top		"xterm -e top"
+command xterm		"xterm +sb"
+
+bind-key M-Return	"xterm +sb"
+bind-key MS-Return	"firefox"
+bind-key CM-1 		group-only-1 
+bind-key CM-2 		group-only-2 
+bind-key CM-3 		group-only-3 
+bind-key CMS-0 		window-movetogroup-0 
+bind-key CMS-1 		window-movetogroup-1 
+bind-key CMS-2 		window-movetogroup-2 
+bind-key CMS-3 		window-movetogroup-3 
+bind-key M-j 		window-cycle 
+bind-key M-k 		window-cycle 
+bind-key M-f 		window-maximize 
+bind-key M-v 		window-vtile
+bind-key M-h		window-htile
+
