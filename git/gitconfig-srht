@@ -1,0 +1,9 @@
+[user]
+	name = eax
+	email = eax@alvar3z.com
+
+[sendemail]
+	smtpserver = mail.privateemail.com 
+	smtpuser = eax@alvar3z.com 
+	smtpencryption = ssl
+	smtpserverport = 465

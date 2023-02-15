@@ -1,0 +1,21 @@
+[includeIf "gitdir:~/repos/github/"]
+	path = .gitconfig-github
+
+[includeIf "gitdir:~/repos/srht/"]
+	path = .gitconfig-srht
+
+[github]
+	user = ealvar3z
+
+[sr.ht]
+	user = eax
+
+[push]
+	default = simple
+	autoSetupRemote = true
+[pull]
+	rebase = true
+[core]
+	whitespace = trailing-space,-space-before-tab,cr-at-eol
+[init]
+	defaultBranch = main
